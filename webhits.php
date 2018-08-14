@@ -4,6 +4,9 @@
 	table	 = webhits
 */
 $now = date('D-d-F-Y');
+/*
+	$now will be picked from the server so there's a risk if this is working on a LAN if my computer's date and time is not accurate and it's acting as the server
+*/
 if(isset($_COOKIE['present'])){
 	if($_COOKIE['present'] != ''){
 		// /* record this hit */
