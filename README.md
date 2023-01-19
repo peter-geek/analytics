@@ -1,5 +1,8 @@
-# analytics
-Since I find google analytics so hard to use with slow networks, I deceided to develop some stupid code that makes my work easier.
+# ANALYTICS
 
-Now I need to track people's location so I can know where exactly they come from and many other cool stuff.
-I still need help on how I can make this better, please help!!
+This piece of code helps you count the number of visitors on your website.
+
+## Updates to the code.
+
+Previously, we had all the data stored in a database. But this time, the data is stored inside a folder on the file system.
+Try it, it's very easy to use and doesn't slow down your website.
